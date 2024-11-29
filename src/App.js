@@ -103,8 +103,9 @@ function App() {
           {/* <Home /> */}
           {tabs.map((tab) => {
             if (tab.show) {
-              return <tab.component />;
+              return <tab.component key={tab.title} />;
             }
+            return null; // Explicitly return null for hidden tabs
           })}
         </div>
       </div>

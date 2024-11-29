@@ -1,11 +1,9 @@
 import React from "react";
-import { BiDice1 } from "react-icons/bi";
 import { CgScreen } from "react-icons/cg";
 import { CiWarning } from "react-icons/ci";
 import { FaRegThumbsUp } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { LuAlarmClock } from "react-icons/lu";
-import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 export default function Home() {
   const jobs = [
